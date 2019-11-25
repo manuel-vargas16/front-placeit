@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "MontserratBold";
+  src: url("./assets/fonts/montserrat/MontserratAlternates-BoldItalic.otf") format("opentype"),
+}
+
+h1 .title {
+  font-family: 'MontserratBold'
+}
+
+.App {
+  display: flex;
+}
+
+.Sidebar {
+  background: blue;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  padding-right: 0 !important;
+}
+
+ul li {
+  list-style: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 20px;
+
+  a {
+    text-decoration: none !important;
+    color: white;
+  }
+
+  a:hover{
+    background: rgba(0,0,160,0.5);
+    padding: 20px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    color: white;
+  }
+}
+
+
+
+.Views {
+  background: white;
+  margin: 30px 45px ;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  
+  .title{
+    font-size: 30px;
+    vertical-align: middle !important;
+  }  
+
+}
+
+.button {
+  background: blue;
+  color: white;
+  height: 40px;
+  border-radius: 100px;
+  padding: 10px;
+}
