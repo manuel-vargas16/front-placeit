@@ -1,47 +1,8 @@
 {
-  "short_name": "MrToki",
-  "name": "MrToki Clientes",
+  "short_name": "Placeit",
+  "name": "front-placeit",
   "icons": [
-    {
-      "src": "favicon.png",
-      "sizes": "133x96",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "logo_mrtoki_48x48.png",
-      "sizes": "48x48",
-      "type": "image/png"
-    },
-    {
-      "src": "logo_mrtoki_72x72.png",
-      "sizes": "72x72",
-      "type": "image/png"
-    },
-    {
-      "src": "logo_mrtoki_96x96.png",
-      "sizes": "96x96",
-      "type": "image/png"
-    },
-    {
-      "src": "logo_mrtoki_144x144.png",
-      "sizes": "144x144",
-      "type": "image/png"
-    },
-    {
-      "src": "logo_mrtoki_168x168.png",
-      "sizes": "168x168",
-      "type": "image/png"
-    },
-    {
-      "src": "logo_mrtoki_192x192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "logo_mrtoki_512x512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
+    
   ],
   "start_url": ".",
   "Scope": "/",

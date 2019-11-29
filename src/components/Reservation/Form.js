@@ -4,6 +4,7 @@ import { apiPost } from './../../services';
 import { urlReservations} from './../../constants/urlApi'
 import FeedbackModal from './../Resources/FeedbackModal'
 import  FieldGroup from './../Resources/FieldGroup.js'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class Form extends Component {
 
@@ -123,7 +124,7 @@ class Form extends Component {
               </Col>
             
               <Col align="right">
-                <Button type="submit" className="button"> Reservar Ahora </Button>
+                <Button type="submit" className="button"> <FontAwesomeIcon icon="plus"/> Reservar Ahora </Button>
               </Col>
           </form>
           </Modal.Body>

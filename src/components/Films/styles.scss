@@ -1,27 +1,42 @@
-.listFilms{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+@import './../../variables.scss';
 
+.listFilms{
   img {
     width: 12em;
     height: 19em;
-    margin: 1em;
+  }
+
+  .containerFilm {
+    display: flex;
+
+    .film {
+      display: inherit;
+      flex-direction: column;
+      justify-content: center;
+
+      .actionReservation {
+        position: relative;
+        top: -80px !important;
+        visibility: hidden;
+        width: 70%;
+        align-self: center;
+        padding: 10px;
+        background: $blue;
+        border: 1px solid $blue;
+        border-radius: 15px;
+        color: white;
+        text-shadow: 0px 0px 3px white;
+      }
+    }    
   }
   
-  .actionReservation {
-    height: 40px;
-    top: -70px !important;
-    left: 60px;
-    align-content: center;
-    position: relative;
+  .film:hover {
+    img {
+      opacity: 0.4;
+    }
     
-  }
-  
-  img:hover {
-    filter: opacity(0.5);
-    
-    
+    .actionReservation{
+      visibility: visible;
+    }
   }
 }

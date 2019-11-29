@@ -127,8 +127,7 @@ class Form extends Component {
             </Col>
             <Col align="right">
               <Button type="submit" className="button"> 
-                {/* <FontAwesomeIcon icon="plus" />  */}
-                Crear Nueva Película 
+                <FontAwesomeIcon icon="plus"/>   Crear Nueva Película 
               </Button>
             </Col>
           </form>
